@@ -1,0 +1,35 @@
+{
+  "name": "json-web-key",
+  "version": "0.0.0",
+  "description": "JSON Web Key",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
+  "license": "MIT",
+  "keywords": [
+    "jwk",
+    "jws",
+    "json",
+    "key",
+    "pem",
+    "acme",
+    "jose"
+  ],
+  "main": "lib/jwk.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~2.5.3"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-json-web-key",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/node-json-web-key.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-json-web-key/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd"
+  }
+}
