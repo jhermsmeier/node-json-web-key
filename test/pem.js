@@ -15,7 +15,7 @@ suite( 'JSON Web Key', function() {
     }
   })
 
-  test( 'parse a PEM encoded public key', function() {
+  test( 'parse a PEM encoded RSA public key', function() {
     var key = JSONWebKey.fromPEM( keys.rsa.public )
     assert.deepEqual( key, JSONWebKey.fromJSON({
       kty: 'RSA',
@@ -24,7 +24,7 @@ suite( 'JSON Web Key', function() {
     }))
   })
 
-  test( 'parse a PEM encoded private key', function() {
+  test( 'parse a PEM encoded RSA private key', function() {
     var key = JSONWebKey.fromPEM( keys.rsa.private )
     assert.deepEqual( key, JSONWebKey.fromJSON({
       kty: 'RSA',
