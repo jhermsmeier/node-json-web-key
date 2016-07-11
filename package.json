@@ -15,8 +15,7 @@
   ],
   "main": "lib/jwk.js",
   "dependencies": {
-    "asn1.js": "~4.6.2",
-    "base64-url": "~1.2.2"
+    "asn1.js": "~4.6.2"
   },
   "devDependencies": {
     "mocha": "~2.5.3"
