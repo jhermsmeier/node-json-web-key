@@ -30,4 +30,10 @@ var webKey = JSONWebKey.fromJSON({
 })
 ```
 
+```js
+// Formatting as JSON
+webKey.toJSON() // -> Object
+JSON.stringify( webKey ) // -> String
+```
+
 ## API Reference
