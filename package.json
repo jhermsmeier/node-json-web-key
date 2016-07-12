@@ -1,6 +1,6 @@
 {
   "name": "json-web-key",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "JSON Web Key",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "license": "MIT",
