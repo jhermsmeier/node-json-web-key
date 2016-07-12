@@ -37,3 +37,66 @@ JSON.stringify( webKey ) // -> String
 ```
 
 ## API Reference
+
+## Classes
+
+<dl>
+<dt><a href="#JSONWebKey">JSONWebKey</a></dt>
+<dd></dd>
+</dl>
+
+<a name="JSONWebKey"></a>
+
+## JSONWebKey
+**Kind**: global class
+
+* [JSONWebKey](#JSONWebKey)
+    * [new JSONWebKey()](#new_JSONWebKey_new)
+    * [.PEM](#JSONWebKey.PEM) : <code>Object</code>
+    * [.getPEMBuffer(pem)](#JSONWebKey.getPEMBuffer) ⇒ <code>Buffer</code>
+    * [.fromPEM(pem)](#JSONWebKey.fromPEM) ⇒ <code>[JSONWebKey](#JSONWebKey)</code>
+    * [.fromJSON(json)](#JSONWebKey.fromJSON) ⇒ <code>[JSONWebKey](#JSONWebKey)</code>
+
+<a name="new_JSONWebKey_new"></a>
+
+### new JSONWebKey()
+JSONWebKey
+
+<a name="JSONWebKey.PEM"></a>
+
+### JSONWebKey.PEM : <code>Object</code>
+Key structures
+
+**Kind**: static property of <code>[JSONWebKey](#JSONWebKey)</code>
+<a name="JSONWebKey.getPEMBuffer"></a>
+
+### JSONWebKey.getPEMBuffer(pem) ⇒ <code>Buffer</code>
+Parse PEM content into a Buffer
+
+**Kind**: static method of <code>[JSONWebKey](#JSONWebKey)</code>
+
+| Param | Type |
+| --- | --- |
+| pem | <code>String</code> &#124; <code>Buffer</code> |
+
+<a name="JSONWebKey.fromPEM"></a>
+
+### JSONWebKey.fromPEM(pem) ⇒ <code>[JSONWebKey](#JSONWebKey)</code>
+Create a JSON Web Key from PEM data
+
+**Kind**: static method of <code>[JSONWebKey](#JSONWebKey)</code>
+
+| Param | Type |
+| --- | --- |
+| pem | <code>String</code> &#124; <code>Buffer</code> |
+
+<a name="JSONWebKey.fromJSON"></a>
+
+### JSONWebKey.fromJSON(json) ⇒ <code>[JSONWebKey](#JSONWebKey)</code>
+Create a JSON Web Key from JSON data
+
+**Kind**: static method of <code>[JSONWebKey](#JSONWebKey)</code>
+
+| Param | Type |
+| --- | --- |
+| json | <code>Object</code> &#124; <code>String</code> |
