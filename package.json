@@ -14,11 +14,14 @@
     "jose"
   ],
   "main": "lib/jwk.js",
+  "scripts": {
+    "test": "mocha --ui tdd"
+  },
   "dependencies": {
-    "asn1.js": "~4.6.2"
+    "asn1.js": "^5.0.1"
   },
   "devDependencies": {
-    "mocha": "~2.5.3"
+    "mocha": "^5.2.0"
   },
   "homepage": "https://github.com/jhermsmeier/node-json-web-key",
   "repository": {
@@ -27,11 +30,5 @@
   },
   "bugs": {
     "url": "https://github.com/jhermsmeier/node-json-web-key/issues"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha --ui tdd"
   }
 }
